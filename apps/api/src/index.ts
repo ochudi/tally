@@ -1,12 +1,12 @@
 import express from "express";
-import { SHARED_PACKAGE, type Health } from "@tally/shared";
 
 const app = express();
 const port = Number(process.env.API_PORT ?? 4000);
 
+// Health check for the docker-compose healthcheck and a quick liveness probe.
+// The full route layer lands in the API phase.
 app.get("/health", (_req, res) => {
-  const body: Health = { ok: true, service: SHARED_PACKAGE };
-  res.json(body);
+  res.json({ ok: true, service: "@tally/api" });
 });
 
 app.listen(port, () => {

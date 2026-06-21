@@ -6,11 +6,7 @@
     "lib": ["ES2022"],
     "outDir": "dist",
     "rootDir": ".",
-    "types": ["node"],
-    "baseUrl": ".",
-    "paths": {
-      "@tally/shared": ["../../packages/shared/dist/index.d.ts"]
-    }
+    "types": ["node"]
   },
   "include": ["src", "prisma"]
 }

@@ -7,4 +7,50 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// Models land in the schema phase: Brand (1) -- Promotion (N).
+// Normalized: one Brand has many Promotions. Brand metadata (hours, socials,
+// website) is shared across a brand's promotions and lives on its own directory
+// pages, so it lives once on Brand rather than duplicated onto every promotion.
+
+model Brand {
+  id          String      @id @default(cuid())
+  // name is the natural key used to stitch promotions to directory entries.
+  name        String      @unique
+  // slug comes from the directory URL and is stable across runs.
+  slug        String      @unique
+  // The brand's own website, not the mall portal. Null when not listed.
+  websiteUrl  String?
+  // Structured per-day hours, validated through the shared Hours schema at the
+  // mapper seam. Null when no hours were found.
+  hours       Json?
+  // { instagram?, facebook?, tiktok?, x?, youtube? }. Only present platforms are
+  // included; {} when none were found.
+  socialLinks Json?
+  promotions  Promotion[]
+  scrapedAt   DateTime
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Promotion {
+  // Stable derived id (source id if present, else a truncated sha1 of
+  // sourcePortal + brand slug + name + url). Upserted on this id so re-scrapes
+  // update in place instead of duplicating.
+  id           String    @id
+  name         String
+  description  String?
+  imageUrl     String?
+  startDate    DateTime?
+  endDate      DateTime?
+  // Canonical promotion URL.
+  url          String
+  // Hard-coded portal id for this single-portal slice.
+  sourcePortal String
+  brandId      String
+  brand        Brand     @relation(fields: [brandId], references: [id])
+  scrapedAt    DateTime
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@index([brandId])
+  @@index([endDate])
+}
