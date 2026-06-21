@@ -8,6 +8,7 @@ const validCard: RawCard = {
   image: "https://cdn.example.com/img.jpg",
   name: "Altar'd State Sale",
   brandLabel: "Altar'd State",
+  storeId: "1035999",
 };
 
 describe("buildPromotion", () => {
@@ -45,17 +46,28 @@ describe("buildPromotions", () => {
     const raw: RawCard[] = [
       validCard,
       { ...validCard, name: null }, // malformed: skipped
-      { href: "/deals/999/", image: null, name: "X", brandLabel: "Brand X" },
+      {
+        href: "/deals/999/",
+        image: null,
+        name: "X",
+        brandLabel: "Brand X",
+        storeId: "42",
+      },
     ];
-    const { promotions, skipped } = buildPromotions(raw, SCRAPED_AT);
-    expect(promotions).toHaveLength(2);
+    const { items, skipped } = buildPromotions(raw, SCRAPED_AT);
+    expect(items).toHaveLength(2);
     expect(skipped).toBe(1);
     expect(warn).toHaveBeenCalledTimes(1);
     warn.mockRestore();
   });
 
+  it("carries the brand store id alongside each promotion", () => {
+    const { items } = buildPromotions([validCard], SCRAPED_AT);
+    expect(items[0]?.storeId).toBe("1035999");
+  });
+
   it("dedups repeated cards by stable id", () => {
-    const { promotions } = buildPromotions([validCard, validCard], SCRAPED_AT);
-    expect(promotions).toHaveLength(1);
+    const { items } = buildPromotions([validCard, validCard], SCRAPED_AT);
+    expect(items).toHaveLength(1);
   });
 });

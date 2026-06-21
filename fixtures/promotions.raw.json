@@ -1,610 +1,921 @@
-[
-  {
-    "id": "promenade-briargate-3250027",
-    "name": "Altar'd State Sale",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTAwMjcqATE4iO6AVnhBHErJWEgpHJNbkQWenw0",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3250027/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "altar-d-state",
-      "name": "Altar’d State",
-      "slug": "altar-d-state"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3239568",
-    "name": "New Spring Bags",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzk1NjgqATE4rv3nVUxTUSLhpLmHZtchJgNA5Eg",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3239568/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+{
+  "scrapedAt": "2026-06-21T11:07:00.821Z",
+  "brands": [
+    {
       "id": "athleta",
       "name": "Athleta",
-      "slug": "athleta"
+      "slug": "athleta",
+      "websiteUrl": "https://track.flexlinkspro.com/g.ashx?foid=156074.5556.660821&trid=1408013.162754&foc=16&fot=9999&fos=5",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3251685",
-    "name": "Select Full-Size Body, Skin and Hair Care Buy 3, Get 1 Free",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2ODUqATE4nJ6DVieh3ltiqskU71V6UGwJnbo",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251685/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
+      "id": "altard-state",
+      "name": "Altar’d State",
+      "slug": "altard-state",
+      "websiteUrl": "https://www.altardstate.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
+    },
+    {
       "id": "bath-and-body-works",
       "name": "Bath & Body Works",
-      "slug": "bath-and-body-works"
+      "slug": "bath-and-body-works",
+      "websiteUrl": "https://www.bathandbodyworks.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3251682",
-    "name": "50% off Select Hand Soaps and Sanitizers",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2ODIqATE4nJ6DViHKGS4jJI34XK9OE-4fjCo",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251682/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "bath-and-body-works",
-      "name": "Bath & Body Works",
-      "slug": "bath-and-body-works"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3251680",
-    "name": "$7.99-$12.99 Select Candles",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2ODAqATE4nZ6DVmQ2zPDFSX06TJRJvyF2J28",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251680/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "bath-and-body-works",
-      "name": "Bath & Body Works",
-      "slug": "bath-and-body-works"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3251678",
-    "name": "$3.50 Select Wallflowers Fragrance Refills",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2NzgqATE4nJ6DVq1vssBpYEsyUBAlIVFT4_Y",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251678/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "bath-and-body-works",
-      "name": "Bath & Body Works",
-      "slug": "bath-and-body-works"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3251674",
-    "name": "$6.95 Select Men's Body Care + $35 Cologne",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2NzQqATE4nJ6DVtgNaDflSNIyfbi-1BS8-_k",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251674/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "bath-and-body-works",
-      "name": "Bath & Body Works",
-      "slug": "bath-and-body-works"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3251667",
-    "name": "75% off Select Items",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2NjcqATE4m56DVggZzWESQ1G-Fw027p0qxtY",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251667/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "bath-and-body-works",
-      "name": "Bath & Body Works",
-      "slug": "bath-and-body-works"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3254159",
-    "name": "Up to 50% Off Sale Styles",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTQxNTkqATE47r-IVhXtb90YYS6E3uDgcFW5lqc",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3254159/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "chico-s",
+    {
+      "id": "chicos",
       "name": "Chico’s",
-      "slug": "chico-s"
+      "slug": "chicos",
+      "websiteUrl": "https://www.tkqlhce.com/click-7274402-11428273-1423859943000",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3254158",
-    "name": "30% Off Your Full-Price Purchase",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTQxNTgqATE47r-IVjTj7eXz2JczPzK0DdX3zWo",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3254158/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "chico-s",
-      "name": "Chico’s",
-      "slug": "chico-s"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3245971",
-    "name": "20% Off Sale",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDU5NzEqATE4iNr2VZmBx-a1EoX9i8Gagk8YWpM",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245971/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "evereve",
       "name": "Evereve",
-      "slug": "evereve"
+      "slug": "evereve",
+      "websiteUrl": "https://www.evereve.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3245118",
-    "name": "20% Off Sale",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDUxMTgqATE43bPzVTAcJNGNBBP9Zc6CrN4ijgs",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245118/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "evereve",
-      "name": "Evereve",
-      "slug": "evereve"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3254214",
-    "name": "Summer Sale: Up to 70% Off",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTQyMTQqATE489uIVvz4FyjFWkgvCwO4d4RkOp4",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3254214/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "pottery-barn",
       "name": "Pottery Barn",
-      "slug": "pottery-barn"
+      "slug": "pottery-barn",
+      "websiteUrl": "https://www.potterybarn.com",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3253653",
-    "name": "$7 Mists, Lotions and VS Body Care When You Buy Five or More",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTM2NTMqATE4uM-HVlasVH-9B_T1nF42uVgpP7Y",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3253653/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "victoria-s-secret",
+    {
+      "id": "victorias-secret",
       "name": "Victoria’s Secret",
-      "slug": "victoria-s-secret"
+      "slug": "victorias-secret",
+      "websiteUrl": "https://www.victoriassecret.com",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3243947",
-    "name": "New PJ Prints Are In",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDM5NDcqATE4_oryVeB1Fi-TnYReTBrUZNuoBsg",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3243947/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "aerie",
       "name": "aerie",
-      "slug": "aerie"
+      "slug": "aerie",
+      "websiteUrl": "https://www.ae.com/us/en",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3245480",
-    "name": "30% Off Travel Essentials",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDU0ODAqATE424X2VVS1w-1cFQLJEnzOxSS6GKk",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245480/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "athleta",
-      "name": "Athleta",
-      "slug": "athleta"
+    {
+      "id": "sephora",
+      "name": "Sephora",
+      "slug": "sephora",
+      "websiteUrl": "https://track.flexlinkspro.com/g.ashx?foid=1.2417.1010013318&trid=1066569.161771&foc=16&fot=9999&fos=5",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3241680",
-    "name": "Our Most Loved Reform Bra",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDE2ODAqATE4gaDtVTwxrWuQ2dSD5RZByUENh-0",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3241680/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "athleta",
-      "name": "Athleta",
-      "slug": "athleta"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3243923",
-    "name": "New MLB™ Backpacks",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDM5MjMqATE4ju_xVfvwXEkRb26Xw1ASWoOY3sI",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3243923/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "pottery-barn",
-      "name": "Pottery Barn",
-      "slug": "pottery-barn"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3245119",
-    "name": "Meet The New Neutrals",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDUxMTkqATE43bPzVTHWtCWTYt-HQUcgxnyYcK8",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245119/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "free-people",
       "name": "Free People",
-      "slug": "free-people"
+      "slug": "free-people",
+      "websiteUrl": "https://shopstyle.it/l/x1fg",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3240624",
-    "name": "Up to 50% Off Select Beauty",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDA2MjQqATE4sdvrVYxm9NjtvtyuWjc3vKSiOEQ",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3240624/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "sephora",
-      "name": "Sephora",
-      "slug": "sephora"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3231809",
-    "name": "Up to 25% Off Shampoos & Conditioners",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzE4MDkqATE4x8_WVY_aOH1jYHIauM-paUyquss",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3231809/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "sephora",
-      "name": "Sephora",
-      "slug": "sephora"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3231082",
-    "name": "Made for Summer",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzEwODIqATE4i8bTVZ0eVBpf7KbfeJs6HM8v6PE",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3231082/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "williams-sonoma",
       "name": "Williams-Sonoma",
-      "slug": "williams-sonoma"
+      "slug": "williams-sonoma",
+      "websiteUrl": "https://www.williams-sonoma.com",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3246187",
-    "name": "Just Dropped: The Baby Blake",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDYxODcqATE41tb4Vb7Wx-ADrty299GwQHTDONI",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3246187/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "free-people",
-      "name": "Free People",
-      "slug": "free-people"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3245884",
-    "name": "Meet The Latest",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDU4ODQqATE4h772Vcp7fW1XssPsk1pkBRZ2OeI",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245884/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "sephora",
-      "name": "Sephora",
-      "slug": "sephora"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3232269",
-    "name": "Featherweight Frames from Japan",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzIyNjkqATE4gPjXVXyota9CsHPr8MqTFWagyfs",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3232269/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "warby-parker",
       "name": "Warby Parker",
-      "slug": "warby-parker"
+      "slug": "warby-parker",
+      "websiteUrl": "https://www.warbyparker.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3234482",
-    "name": "The Friday Drop",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzQ0ODIqATE427fdVbtCXomLeuMFZ3A6H5xU2Hs",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3234482/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "altar-d-state",
-      "name": "Altar’d State",
-      "slug": "altar-d-state"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3248495",
-    "name": "Shop New Clothing",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDg0OTUqATE44u38Vb22B5fddqEzWAkmsqElG1E",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3248495/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "anthropologie",
       "name": "Anthropologie",
-      "slug": "anthropologie"
+      "slug": "anthropologie",
+      "websiteUrl": "https://shopstyle.it/l/uLfF",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3239426",
-    "name": "Meet Melva",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzk0MjYqATE4kOHnVZVf51y5OoFDdC_4-WBfQjA",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3239426/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "warby-parker",
-      "name": "Warby Parker",
-      "slug": "warby-parker"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3249001",
-    "name": "The Americana Edit",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDkwMDEqATE47N39VWMG2kXc-hzER6zInPi6d7I",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3249001/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "altar-d-state",
-      "name": "Altar’d State",
-      "slug": "altar-d-state"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3249327",
-    "name": "Lightweight Quilts for Warm Nights",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDkzMjcqATE4i_r9VYj35R1iF747p-BiJTpD7ZI",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3249327/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "pottery-barn",
-      "name": "Pottery Barn",
-      "slug": "pottery-barn"
-    },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3252433",
-    "name": "Big Summer Beauty Sale Up to 40% off",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTI0MzMqATE4xNWDVokv3BlEZSruCcyBlu7PURY",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3252433/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "ulta-beauty",
+    {
+      "id": "ulta-salon",
       "name": "ULTA Beauty",
-      "slug": "ulta-beauty"
+      "slug": "ulta-salon",
+      "websiteUrl": "https://www.ulta.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3232749",
-    "name": "FREE* Striped Love Tote GWP",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzI3NDkqATE4vpTYVf0uxZGXqxQUwEsIbye056I",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3232749/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "brighton-collectibles",
       "name": "Brighton Collectibles",
-      "slug": "brighton-collectibles"
+      "slug": "brighton-collectibles",
+      "websiteUrl": "https://www.brighton.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3220732",
-    "name": "Gear Up for Match Day",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMjA3MzIqATE4gM-5VeaO-bDQWYjtslekccDg8Nc",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3220732/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "nike-live",
       "name": "Nike Live",
-      "slug": "nike-live"
+      "slug": "nike-live",
+      "websiteUrl": null,
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3215495",
-    "name": "EXTRA 40% OFF ALL SALE STYLES",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMTU0OTUqATE4oaWvVTTQWAA99f3Rwm-5AZh-_BI",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3215495/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "j-jill",
       "name": "J.Jill",
-      "slug": "j-jill"
+      "slug": "j-jill",
+      "websiteUrl": "https://www.jjill.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3108429",
-    "name": "College Student Discount",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjkqATE4pdvQU4lPrsDmprWGCP9tZrwF0XI",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108429/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
+    {
       "id": "columbia-sportswear",
       "name": "Columbia Sportswear",
-      "slug": "columbia-sportswear"
+      "slug": "columbia-sportswear",
+      "websiteUrl": "https://www.columbia.com/",
+      "hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "11:00-18:00"
+      },
+      "socialLinks": {},
+      "scrapedAt": "2026-06-21T11:05:47.105Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promenade-briargate-3239568",
+      "name": "New Spring Bags",
+      "description": "Designed to bring every thing (and more). Your daily go-to is waiting for you. Stop by and shop.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzk1NjgqATE4rv3nVUxTUSLhpLmHZtchJgNA5Eg",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3239568/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "athleta",
+        "name": "Athleta",
+        "slug": "athleta"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3108428",
-    "name": "Senior Discount",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjgqATE4pNvQU4J2s76S-fiQf81VFhjJ5jA",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108428/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "columbia-sportswear",
-      "name": "Columbia Sportswear",
-      "slug": "columbia-sportswear"
+    {
+      "id": "promenade-briargate-3250027",
+      "name": "Altar'd State Sale",
+      "description": "Stop by and enjoy big savings on select items in store for a limited time.\nSome restrictions may apply. Offer details and dates may vary by location. See store for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTAwMjcqATE4iO6AVnhBHErJWEgpHJNbkQWenw0",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3250027/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "altard-state",
+        "name": "Altar’d State",
+        "slug": "altard-state"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3108427",
-    "name": "Teacher Discount",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjcqATE4pNvQU6HpKyTp0JfeW35yBl5YNts",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108427/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "columbia-sportswear",
-      "name": "Columbia Sportswear",
-      "slug": "columbia-sportswear"
+    {
+      "id": "promenade-briargate-3251685",
+      "name": "Select Full-Size Body, Skin and Hair Care Buy 3, Get 1 Free",
+      "description": "Don't wait! Shop in-store and get select full-size body, skin & hair care at buy 3, get 1 free.\nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2ODUqATE4nJ6DVieh3ltiqskU71V6UGwJnbo",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251685/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "bath-and-body-works",
+        "name": "Bath & Body Works",
+        "slug": "bath-and-body-works"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  },
-  {
-    "id": "promenade-briargate-3108426",
-    "name": "Military & First Responder Discount",
-    "description": null,
-    "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjYqATE4pNvQU_CIdwo-cSY08DW7jfp0rXM",
-    "startDate": null,
-    "endDate": null,
-    "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108426/",
-    "sourcePortal": "promenade-briargate",
-    "brand": {
-      "id": "columbia-sportswear",
-      "name": "Columbia Sportswear",
-      "slug": "columbia-sportswear"
+    {
+      "id": "promenade-briargate-3251682",
+      "name": "50% off Select Hand Soaps and Sanitizers",
+      "description": "Hurry in & save! Shop in-store and get 50% off select hand soaps & sanitizers.\nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2ODIqATE4nJ6DViHKGS4jJI34XK9OE-4fjCo",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251682/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "bath-and-body-works",
+        "name": "Bath & Body Works",
+        "slug": "bath-and-body-works"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
     },
-    "scrapedAt": "2026-06-21T10:14:50.882Z"
-  }
-]
+    {
+      "id": "promenade-briargate-3251680",
+      "name": "$7.99-$12.99 Select Candles",
+      "description": "Stop by our store and get select candles for $7.99-$12.99. \nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2ODAqATE4nZ6DVmQ2zPDFSX06TJRJvyF2J28",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251680/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "bath-and-body-works",
+        "name": "Bath & Body Works",
+        "slug": "bath-and-body-works"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3251678",
+      "name": "$3.50 Select Wallflowers Fragrance Refills",
+      "description": "Hurry! Shop in store and get select Wallflowers fragrance refills for $3.50. \nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2NzgqATE4nJ6DVq1vssBpYEsyUBAlIVFT4_Y",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251678/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "bath-and-body-works",
+        "name": "Bath & Body Works",
+        "slug": "bath-and-body-works"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3251674",
+      "name": "$6.95 Select Men's Body Care + $35 Cologne",
+      "description": "Limited time only! Shop in-store and get $35 select men's body care + $35 cologne.\nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2NzQqATE4nJ6DVtgNaDflSNIyfbi-1BS8-_k",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251674/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "bath-and-body-works",
+        "name": "Bath & Body Works",
+        "slug": "bath-and-body-works"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3251667",
+      "name": "75% off Select Items",
+      "description": "Don't miss out! Shop in-store and get 75% off select items.\nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTE2NjcqATE4m56DVggZzWESQ1G-Fw027p0qxtY",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3251667/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "bath-and-body-works",
+        "name": "Bath & Body Works",
+        "slug": "bath-and-body-works"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3254159",
+      "name": "Up to 50% Off Sale Styles",
+      "description": "Don't miss out! Shop in-store and get up to 50% off sale styles.\nOffer valid limited time only. Offer valid in US Only. While supplies last. Offer not valid on the purchase of charity items, third party brands, gift cards, e-gift cards, credit card payments, prior purchases, final sale items, taxes or shipping; other exclusions may apply. In the event of a return, refund shall not exceed amount paid. If you return a portion of your purchase, an applicable portion of your original discount will be forfeited. Chico's reserves the right to discontinue or modify this offer at any time. Offer may not be combined with other offers, coupons or discounts except as provided herein. No rain checks. No price adjustments. No cash value. Not transferable. Void where prohibited. Where applicable, dollar-off discounts may be applied after percent-off total purchase discounts/coupons.\nUp to 50% Off Sale Styles. Select Styles. Offer valid for a limited time. Offer valid in U.S. Chico's Stores (excluding Chico's Outlets and Chico's Off The Rack stores) at chicos.com and by phone 888.855.4986.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTQxNTkqATE47r-IVhXtb90YYS6E3uDgcFW5lqc",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3254159/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "chicos",
+        "name": "Chico’s",
+        "slug": "chicos"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3254158",
+      "name": "30% Off Your Full-Price Purchase",
+      "description": "Hurry! Shop in-store and get 30% off your full-price purchase. \nOffer valid limited time only. Offer valid in US Only. While supplies last. Offer not valid on the purchase of charity items, third party brands, gift cards, e-gift cards, credit card payments, prior purchases, final sale items, taxes or shipping; other exclusions may apply. In the event of a return, refund shall not exceed amount paid. If you return a portion of your purchase, an applicable portion of your original discount will be forfeited. Chico's reserves the right to discontinue or modify this offer at any time. Offer may not be combined with other offers, coupons or discounts except as provided herein. No rain checks. No price adjustments. No cash value. Not transferable. Void where prohibited. Where applicable, dollar-off discounts may be applied after percent-off total purchase discounts/coupons.\n30% Off Your Full-Price Purchase. Excludes Swim & Chico's X Romi Collection. Offer valid 06/20/2026 - 06/21/2026. Offer valid in U.S. Chico's Stores (excluding Chico's Outlets and Chico's Off The Rack stores) at chicos.com and by phone 888.855.4986.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTQxNTgqATE47r-IVjTj7eXz2JczPzK0DdX3zWo",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3254158/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "chicos",
+        "name": "Chico’s",
+        "slug": "chicos"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3245971",
+      "name": "20% Off Sale",
+      "description": "Hurry in and take 20% off all dresses, jumpsuits, and rompers excluding Spanx, Varley, and Xirena in store for a limited time.\n20% off all dresses, jumpsuits, and rompers excluding Spanx, Varley, and Xirena in stores June 17, 2026, 12:01 AM CDT to June 21, 2026 11:59 PM PDT only. Cannot be applied to previous purchases or purchases of gift cards. Not valid on Trendsend. Not eligible for price adjustment. Use of this promotion constitutes acceptance of these terms and conditions, except where prohibited by law.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDU5NzEqATE4iNr2VZmBx-a1EoX9i8Gagk8YWpM",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245971/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "evereve",
+        "name": "Evereve",
+        "slug": "evereve"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3245118",
+      "name": "20% Off Sale",
+      "description": "Stop by and take 20% off all dresses, jumpsuits, and rompers, excluding Spanx, Varley, and Xirena in store for a limited time.\n*20% off all dresses, jumpsuits, and rompers, excluding Spanx, Varley, and Xirena ​in stores June 17, 2026, 12:01 AM CDT to June 21, 2026 11:59 PM PDT only. Sale prices as marked. Cannot be applied to previous purchases or purchases of gift cards. Not valid on Trendsend. Not eligible for price adjustment. Use of this promotion constitutes acceptance of these terms and conditions, except where prohibited by law.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDUxMTgqATE43bPzVTAcJNGNBBP9Zc6CrN4ijgs",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245118/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "evereve",
+        "name": "Evereve",
+        "slug": "evereve"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3254214",
+      "name": "Summer Sale: Up to 70% Off",
+      "description": "Stop by and take up to 70% off on sale items in store for a limited time.\nSome restrictions may apply. Offer details and dates may vary by location. See store for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTQyMTQqATE489uIVvz4FyjFWkgvCwO4d4RkOp4",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3254214/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "pottery-barn",
+        "name": "Pottery Barn",
+        "slug": "pottery-barn"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3253653",
+      "name": "$7 Mists, Lotions and VS Body Care When You Buy Five or More",
+      "description": "Limited time! Shop in-store and get mists, lotions & VS body care for $7 each when you buy five or more.\nOrig. up to $22.95 each. Select items. Excludes clearance. Limit 30 per order.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTM2NTMqATE4uM-HVlasVH-9B_T1nF42uVgpP7Y",
+      "startDate": null,
+      "endDate": "2026-06-21T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3253653/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "victorias-secret",
+        "name": "Victoria’s Secret",
+        "slug": "victorias-secret"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3243947",
+      "name": "New PJ Prints Are In",
+      "description": "The new PJ prints are in! Stop by and shop in-store today.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDM5NDcqATE4_oryVeB1Fi-TnYReTBrUZNuoBsg",
+      "startDate": null,
+      "endDate": "2026-06-22T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3243947/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "aerie",
+        "name": "aerie",
+        "slug": "aerie"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3245480",
+      "name": "30% Off Travel Essentials",
+      "description": "Hurry in and take 30% off on travel essentials in store for a limited time.\n*Offer valid in store in the US (including Puerto Rico) from 06/17/2026 at 12:01am PT through 06/22/2026 at 11:59pm PT. Not valid at the Athleta Outlet. Offer applies to select merchandise only. Offer not valid on value of gift cards purchased, packaging, applicable taxes, shipping & handling charges or international purchases. Not valid at outlet or 3rd party purchases. Cannot be combined with Gap Inc. employee or Athleta WellPro discount. No adjustments on previous purchases. Offer subject to change without notice. Price as marked.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDU0ODAqATE424X2VVS1w-1cFQLJEnzOxSS6GKk",
+      "startDate": null,
+      "endDate": "2026-06-22T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245480/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "athleta",
+        "name": "Athleta",
+        "slug": "athleta"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3243923",
+      "name": "New MLB™ Backpacks",
+      "description": "Swing for the fences with new MLB™ backpacks and lunch boxes. Shop in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDM5MjMqATE4ju_xVfvwXEkRb26Xw1ASWoOY3sI",
+      "startDate": null,
+      "endDate": "2026-06-22T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3243923/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "pottery-barn",
+        "name": "Pottery Barn",
+        "slug": "pottery-barn"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3241680",
+      "name": "Our Most Loved Reform Bra",
+      "description": "Buttery-soft for zero chafe. Supportive straps for zero dig. Meet your new favorite.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDE2ODAqATE4gaDtVTwxrWuQ2dSD5RZByUENh-0",
+      "startDate": null,
+      "endDate": "2026-06-22T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3241680/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "athleta",
+        "name": "Athleta",
+        "slug": "athleta"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3240624",
+      "name": "Up to 50% Off Select Beauty",
+      "description": "Stop by and take up to 50% off on select beauty products in store for a limited time.\naAvailable on in-stock merchandise only.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDA2MjQqATE4sdvrVYxm9NjtvtyuWjc3vKSiOEQ",
+      "startDate": null,
+      "endDate": "2026-06-23T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3240624/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "sephora",
+        "name": "Sephora",
+        "slug": "sephora"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3245119",
+      "name": "Meet The New Neutrals",
+      "description": "Neutral bottoms call for fresh silhouettes and pairings that pop. Stop by and shop in store today.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDUxMTkqATE43bPzVTHWtCWTYt-HQUcgxnyYcK8",
+      "startDate": null,
+      "endDate": "2026-06-23T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245119/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "free-people",
+        "name": "Free People",
+        "slug": "free-people"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3231082",
+      "name": "Made for Summer",
+      "description": "Built for adventure, YETI delivers rugged, insulated essentials designed to keep drinks cold and gatherings going strong. Shop in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzEwODIqATE4i8bTVZ0eVBpf7KbfeJs6HM8v6PE",
+      "startDate": null,
+      "endDate": "2026-06-23T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3231082/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "williams-sonoma",
+        "name": "Williams-Sonoma",
+        "slug": "williams-sonoma"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3231809",
+      "name": "Up to 25% Off Shampoos & Conditioners",
+      "description": "Hurry in and take up to 25% off shampoos & conditioners in store for a limited time.\nb Up to 25% off on select shampoo and conditioner products, as identified, between 12:01am PT on 6/17/26 and 11:59pm PT on 6/23/26. Offer valid in Sephora US stores, Sephora Canada Stores, Sephora at Kohl’s stores, sephora.com, sephora.ca, and kohls.com. Buy Online, Pick Up In Store orders placed after 6/23/26 do not qualify. Not valid on Hair Value and Gift Sets, previous purchases, packaging, taxes, or shipping and handling charges. Return of discounted merchandise will be for the price actually paid. Promotion offer has no cash value and cannot be applied to previous purchases. Cannot be used in conjunction with other promotional offers, or rewards unless otherwise specified by Sephora. Sephora/Kohls may modify or cancel offer at any time, in its sole discretion.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzE4MDkqATE4x8_WVY_aOH1jYHIauM-paUyquss",
+      "startDate": null,
+      "endDate": "2026-06-23T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3231809/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "sephora",
+        "name": "Sephora",
+        "slug": "sephora"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3246187",
+      "name": "Just Dropped: The Baby Blake",
+      "description": "Your favorite thermal just got a ready-for-summer twist - for breezy summer mornings, chilly beach nights, and everywhere in between. Stop by and shop.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDYxODcqATE41tb4Vb7Wx-ADrty299GwQHTDONI",
+      "startDate": null,
+      "endDate": "2026-06-24T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3246187/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "free-people",
+        "name": "Free People",
+        "slug": "free-people"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3245884",
+      "name": "Meet The Latest",
+      "description": "Brand-new beauty just dropped. Stop by and shop in store today.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDU4ODQqATE4h772Vcp7fW1XssPsk1pkBRZ2OeI",
+      "startDate": null,
+      "endDate": "2026-06-24T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3245884/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "sephora",
+        "name": "Sephora",
+        "slug": "sephora"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3232269",
+      "name": "Featherweight Frames from Japan",
+      "description": "Some of our lightest-yet most durable-eyewear is crafted in Japan from premium materials like ion-plated titanium and TQ90 nylon. Shop in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzIyNjkqATE4gPjXVXyota9CsHPr8MqTFWagyfs",
+      "startDate": null,
+      "endDate": "2026-06-24T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3232269/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "warby-parker",
+        "name": "Warby Parker",
+        "slug": "warby-parker"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3234482",
+      "name": "The Friday Drop",
+      "description": "Somehow, stripes make everything look like you have plans-even when you don't. Shop in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzQ0ODIqATE427fdVbtCXomLeuMFZ3A6H5xU2Hs",
+      "startDate": null,
+      "endDate": "2026-06-25T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3234482/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "altard-state",
+        "name": "Altar’d State",
+        "slug": "altard-state"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3239426",
+      "name": "Meet Melva",
+      "description": "Premium metal arms and adjustable nose pads make this summer silhouette feel extra light and breezy. Shop in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzk0MjYqATE4kOHnVZVf51y5OoFDdC_4-WBfQjA",
+      "startDate": null,
+      "endDate": "2026-06-27T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3239426/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "warby-parker",
+        "name": "Warby Parker",
+        "slug": "warby-parker"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3248495",
+      "name": "Shop New Clothing",
+      "description": "Shop in store today and check out our latest styles.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDg0OTUqATE44u38Vb22B5fddqEzWAkmsqElG1E",
+      "startDate": null,
+      "endDate": "2026-06-25T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3248495/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "anthropologie",
+        "name": "Anthropologie",
+        "slug": "anthropologie"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3249001",
+      "name": "The Americana Edit",
+      "description": "Your all-American starting line-up of 'fits worthy of every 250th birthday celebration. Shop in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDkwMDEqATE47N39VWMG2kXc-hzER6zInPi6d7I",
+      "startDate": null,
+      "endDate": "2026-07-01T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3249001/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "altard-state",
+        "name": "Altar’d State",
+        "slug": "altard-state"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3249327",
+      "name": "Lightweight Quilts for Warm Nights",
+      "description": "Lightweight and beautifully textured, our quilts are an easy way to refresh your room for warmer weather. Stop by in store today!",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNDkzMjcqATE4i_r9VYj35R1iF747p-BiJTpD7ZI",
+      "startDate": null,
+      "endDate": "2026-07-01T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3249327/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "pottery-barn",
+        "name": "Pottery Barn",
+        "slug": "pottery-barn"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3252433",
+      "name": "Big Summer Beauty Sale Up to 40% off",
+      "description": "The Big Summer Beauty Sale is here! Shop in-store and get up to 40% off select products. \nSome restrictions may apply. Offer details and dates may vary by location. See a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyNTI0MzMqATE4xNWDVokv3BlEZSruCcyBlu7PURY",
+      "startDate": null,
+      "endDate": "2026-07-11T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3252433/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "ulta-salon",
+        "name": "ULTA Beauty",
+        "slug": "ulta-salon"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3232749",
+      "name": "FREE* Striped Love Tote GWP",
+      "description": "This season’s Striped Love Tote, designed by Britney Drumheller, is nautically inspired, roomy, and made to carry all your must-haves for everything from beach days to weekend getaways.  Visit us to receive your Striped Love Tote absolutely FREE* with a single, same-day purchase of $150 or more.\n*Limit one per customer, while supplies last. Other items shown in image are not included. Purchase total includes merchandise only. Gift cards and sales tax not included. Cannot be combined with other offers.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMzI3NDkqATE4vpTYVf0uxZGXqxQUwEsIbye056I",
+      "startDate": null,
+      "endDate": "2026-07-19T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3232749/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "brighton-collectibles",
+        "name": "Brighton Collectibles",
+        "slug": "brighton-collectibles"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3220732",
+      "name": "Gear Up for Match Day",
+      "description": "Your game. Your rules. Find pitch-ready gear that turns every day into match day.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMjA3MzIqATE4gM-5VeaO-bDQWYjtslekccDg8Nc",
+      "startDate": null,
+      "endDate": "2026-07-22T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3220732/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "nike-live",
+        "name": "Nike Live",
+        "slug": "nike-live"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3215495",
+      "name": "EXTRA 40% OFF ALL SALE STYLES",
+      "description": "Thursday, 5/28 – Monday, 9/7\nSee a store associate for details.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMyMTU0OTUqATE4oaWvVTTQWAA99f3Rwm-5AZh-_BI",
+      "startDate": null,
+      "endDate": "2026-09-07T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3215495/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "j-jill",
+        "name": "J.Jill",
+        "slug": "j-jill"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3108429",
+      "name": "College Student Discount",
+      "description": "Shop the latest styles in-store today! Enjoy an additional 10% off year-round! \n*U.S and International students receive 10% off (before tax) at participating Columbia-owned stores in U.S. and Canada 01/01/2026 through 12/31/2026. Excludes U.S. and Canada employee stores. Must present proof of current enrollment with valid College or University I.D. or electronic schedule. Offer is non-transferable and may not be applied to prior purchases, combined with any other offer or discount, redeemed at any other store, or applied to gift card purchases, taxes, or shipping charges. Columbia reserves the right to change or cancel this offer at any time.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjkqATE4pdvQU4lPrsDmprWGCP9tZrwF0XI",
+      "startDate": null,
+      "endDate": "2026-12-31T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108429/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "columbia-sportswear",
+        "name": "Columbia Sportswear",
+        "slug": "columbia-sportswear"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3108428",
+      "name": "Senior Discount",
+      "description": "Shop the latest styles in-store today! Enjoy an additional 10% off year-round! \n*Seniors age 65+ receive 10% off (before tax) at participating Columbia-owned stores in the U.S. and Canada 01/01/2026 through 12/31/2026. Excludes U.S. and Canada employee stores. Offer may not be applied to prior purchases, combined with any other offer or discount, redeemed at any other store, or applied to gift card purchases, taxes, or shipping charges. Columbia reserves the right to change or cancel this offer at any time.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjgqATE4pNvQU4J2s76S-fiQf81VFhjJ5jA",
+      "startDate": null,
+      "endDate": "2026-12-31T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108428/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "columbia-sportswear",
+        "name": "Columbia Sportswear",
+        "slug": "columbia-sportswear"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3108427",
+      "name": "Teacher Discount",
+      "description": "Shop the latest styles in-store today! Enjoy an additional 10% off year-round! \n*Active and retired teachers receive 10% off (before tax) at participating Columbia-owned stores in U.S. and Canada 01/01/2026 through 12/31/2026. Excludes U.S. and Canada employee stores. Must present valid school I.D. Offer is non-transferable and may not be applied to prior purchases, combined with any other offer or discount, redeemed at any other store, or applied to gift card purchases, taxes, or shipping charges. Columbia reserves the right to change or cancel this offer at any time.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjcqATE4pNvQU6HpKyTp0JfeW35yBl5YNts",
+      "startDate": null,
+      "endDate": "2026-12-31T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108427/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "columbia-sportswear",
+        "name": "Columbia Sportswear",
+        "slug": "columbia-sportswear"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    },
+    {
+      "id": "promenade-briargate-3108426",
+      "name": "Military & First Responder Discount",
+      "description": "Shop the latest styles in-store today! Enjoy an additional 10% off year-round! \n*U.S. and Canada Military Veterans, active duty, retirees, reservists and active law enforcement officers, firefighters, emergency medical service providers, and emergency medical technicians receive XX% off (before tax) at participating Columbia-owned stores in the U.S. and Canada 01/01/2026 through 12/31/2026. Excludes U.S. and Canada employee stores. Must present a valid I.D. Offer is non-transferable and may not be applied to prior purchases, combined with any other offer or discount, redeemed at any other store, or applied to gift card purchases, taxes, or shipping charges. Columbia reserves the right to change or cancel this offer at any time.\nMilitary/First Responder groups include: Active duty, veterans, and retired US and Canadian Military and First Responder personnel must show valid ID. Military and First Responder qualifiers include: Police Officer, Sheriff, State Trooper, Corrections Officer, Federal Officer, Career Firefighter, Volunteer Firefighter, EMT, Paramedic, and 911 dispatcher.",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CNCMPRCREhoLb2ZmZXJfaW1hZ2UiBzMxMDg0MjYqATE4pNvQU_CIdwo-cSY08DW7jfp0rXM",
+      "startDate": null,
+      "endDate": "2026-12-31T22:59:59.999Z",
+      "url": "https://www.thepromenadeshopsatbriargate.com/deals/3108426/",
+      "sourcePortal": "promenade-briargate",
+      "brand": {
+        "id": "columbia-sportswear",
+        "name": "Columbia Sportswear",
+        "slug": "columbia-sportswear"
+      },
+      "scrapedAt": "2026-06-21T11:05:55.165Z"
+    }
+  ]
+}

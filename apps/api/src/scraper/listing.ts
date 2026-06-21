@@ -2,19 +2,28 @@ import type { Page } from "playwright";
 import { Promotion, type Promotion as PromotionShape } from "@tally/shared";
 import { BASE_URL, LISTING, SALES_URL, SOURCE_PORTAL } from "./selectors.js";
 import { derivePromotionId, slugify } from "./normalize.js";
+import { ensureNameShim } from "./shim.js";
 
 // What a single card yields from the DOM, before validation. All fields are
 // nullable here because any of them can be missing on a malformed card; the
-// schema decides what is acceptable.
+// schema decides what is acceptable. storeId is the brand's source id, used to
+// stitch brand metadata in stage 3.
 export type RawCard = {
   href: string | null;
   image: string | null;
   name: string | null;
   brandLabel: string | null;
+  storeId: string | null;
+};
+
+// A validated promotion plus the brand store id it stitches to.
+export type ScrapedPromotion = {
+  promotion: PromotionShape;
+  storeId: string | null;
 };
 
 export type ListingResult = {
-  promotions: PromotionShape[];
+  items: ScrapedPromotion[];
   found: number; // cards seen in the DOM
   skipped: number; // cards that failed to validate
 };
@@ -64,14 +73,14 @@ export function buildPromotion(card: RawCard, scrapedAt: Date): PromotionShape {
 export function buildPromotions(
   raw: RawCard[],
   scrapedAt: Date,
-): { promotions: PromotionShape[]; skipped: number } {
-  const byId = new Map<string, PromotionShape>();
+): { items: ScrapedPromotion[]; skipped: number } {
+  const byId = new Map<string, ScrapedPromotion>();
   let skipped = 0;
   for (const card of raw) {
     try {
       const promotion = buildPromotion(card, scrapedAt);
       // The same deal can appear under several collection tabs; dedup by id.
-      byId.set(promotion.id, promotion);
+      byId.set(promotion.id, { promotion, storeId: card.storeId });
     } catch (err) {
       skipped++;
       console.warn(
@@ -80,7 +89,7 @@ export function buildPromotions(
       );
     }
   }
-  return { promotions: [...byId.values()], skipped };
+  return { items: [...byId.values()], skipped };
 }
 
 // Stage 1: load /sales, wait for the cards to render (not a fixed sleep), and
@@ -88,13 +97,7 @@ export function buildPromotions(
 // built into a Promotion and validated against the shared schema; a card that
 // fails validation is logged and skipped, never fatal (NFR-5).
 export async function scrapeListing(page: Page): Promise<ListingResult> {
-  // tsx/esbuild compiles our $$eval callback with keep-names, which references a
-  // __name helper that does not exist in the browser. Shim it before navigation
-  // so the serialized function runs in the page context.
-  await page.addInitScript(() => {
-    const g = globalThis as Record<string, unknown>;
-    if (typeof g.__name !== "function") g.__name = (fn: unknown) => fn;
-  });
+  await ensureNameShim(page);
 
   await page.goto(SALES_URL, { waitUntil: "networkidle", timeout: 60_000 });
   // Wait for the real content, not a timer: the first deal card must be present.
@@ -114,11 +117,12 @@ export async function scrapeListing(page: Page): Promise<ListingResult> {
             img?.getAttribute("src") || img?.getAttribute("data-src") || null,
           name: text(sel.name),
           brandLabel: text(sel.brandLabel),
+          storeId: row.getAttribute(sel.storeIdAttr) || null,
         };
       }),
     LISTING,
   );
 
-  const { promotions, skipped } = buildPromotions(raw, new Date());
-  return { promotions, found: raw.length, skipped };
+  const { items, skipped } = buildPromotions(raw, new Date());
+  return { items, found: raw.length, skipped };
 }
