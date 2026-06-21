@@ -50,10 +50,22 @@ once I was inside the real site.
   `<time datetime="10:00">`, so I parse the attributes rather than display text
   and store a structured per-day map.
 - **No per-brand social links exist.** The store pages show only the mall's own
-  footer socials. I scope extraction to the brand's info block, so `socialLinks`
-  comes back `{}` for every brand rather than wrongly attributing the mall's
-  handles. The schema and UI support socials; the source simply does not provide
-  them.
+  footer socials (confirmed on several stores: all link to `ShopsBriargate`). I
+  scope extraction to the brand's info block, so `socialLinks` comes back `{}` for
+  every brand rather than wrongly attributing the mall's handles. The schema and
+  UI render socials present-only, so brand icons appear automatically if a source
+  ever provides them. The venue's own socials are surfaced honestly in the site
+  footer instead, from a hard-coded portal constant (`apps/web/lib/portal.ts`);
+  hard-coding the single portal is allowed by the brief, and these are clearly
+  labelled as the mall's, not a brand's.
+
+## UI choices
+
+- **Sale detail modal.** Clicking a promo card opens a focused modal with the
+  full sale (image, description, validity) and the brand block (hours, website,
+  socials), plus a primary action that opens the original deal on the source.
+  This is the brief's optional detail click-through. A modal (rather than a route)
+  keeps the list's filters and scroll position intact.
 - **The promotion id prefers the source id.** Each deal URL is `/deals/{id}/`, so
   the stable id is `promenade-briargate-{id}`; if a deal ever lacked one, it falls
   back to a sha1 of `sourcePortal + brandSlug + name + url`. Upserting on this id

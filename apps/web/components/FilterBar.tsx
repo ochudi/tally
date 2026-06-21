@@ -45,7 +45,7 @@ export function FilterBar({
   const onSearch = (value: string) => {
     setSearch(value);
     clearTimeout(debounce.current);
-    debounce.current = setTimeout(() => commit({ search: value.trim() }), 300);
+    debounce.current = setTimeout(() => commit({ q: value.trim() }), 300);
   };
 
   const hasFilters = Boolean(q || date);
@@ -101,7 +101,7 @@ export function FilterBar({
         {hasFilters && (
           <button
             type="button"
-            onClick={() => commit({ search: null, date: null })}
+            onClick={() => commit({ q: null, date: null })}
             className="inline-flex h-10 items-center gap-1 self-start rounded-lg px-2 text-sm text-ink-muted transition hover:text-ink sm:self-auto"
           >
             <CloseIcon className="text-[14px]" />

@@ -1,4 +1,5 @@
-import { fetchPromotions } from "../lib/api";
+import type { Brand } from "@tally/shared";
+import { fetchBrands, fetchPromotions } from "../lib/api";
 import { PromoCard } from "./PromoCard";
 import { Pagination } from "./Pagination";
 import { EmptyState, ErrorState } from "./states";
@@ -17,8 +18,14 @@ export async function PromoListView({
   page: number;
 }) {
   let list;
+  let brands: Brand[] = [];
   try {
-    list = await fetchPromotions({ q, date, page, pageSize: PAGE_SIZE });
+    // Brands carry the metadata the detail modal shows; a brands failure should
+    // not break the list, so it is fetched best-effort.
+    [list, brands] = await Promise.all([
+      fetchPromotions({ q, date, page, pageSize: PAGE_SIZE }),
+      fetchBrands().catch(() => []),
+    ]);
   } catch {
     return <ErrorState />;
   }
@@ -26,6 +33,8 @@ export async function PromoListView({
   if (list.total === 0) {
     return <EmptyState hasFilters={Boolean(q || date)} />;
   }
+
+  const brandBySlug = new Map(brands.map((b) => [b.slug, b]));
 
   const first = (list.page - 1) * list.pageSize + 1;
   const last = Math.min(list.page * list.pageSize, list.total);
@@ -46,7 +55,11 @@ export async function PromoListView({
       </p>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {list.data.map((promo) => (
-          <PromoCard key={promo.id} promo={promo} />
+          <PromoCard
+            key={promo.id}
+            promo={promo}
+            brand={brandBySlug.get(promo.brand.slug)}
+          />
         ))}
       </div>
       <Pagination

@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { FilterBar } from "../components/FilterBar";
 import { PromoListView } from "../components/PromoListView";
 import { BrandGroupsView } from "../components/BrandGroupsView";
+import { Footer } from "../components/Footer";
 import {
   BrandGroupsSkeleton,
   CardGridSkeleton,
@@ -31,6 +32,7 @@ export default async function Home({
   const key = `${view}|${q}|${date}|${page}`;
 
   return (
+    <>
     <main className="mx-auto w-full max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
       <header className="mb-9">
         <p className="text-xs font-medium uppercase tracking-[0.14em] text-ink-subtle">
@@ -62,5 +64,7 @@ export default async function Home({
         )}
       </Suspense>
     </main>
+    <Footer />
+    </>
   );
 }
