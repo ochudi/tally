@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: tally-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: tally
+      POSTGRES_PASSWORD: tally
+      POSTGRES_DB: tally
+    # Host port 5433 to avoid clashing with other local Postgres instances on
+    # 5432. Container still listens on 5432; DATABASE_URL uses 5433.
+    ports:
+      - "5433:5432"
+    volumes:
+      - tally_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tally -d tally"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  tally_pgdata:

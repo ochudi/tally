@@ -1,0 +1,24 @@
+# Never commit project guidance or the take-home playbook
+CLAUDE.md
+*.txt
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules
+.next
+dist
+
+# Test artifacts
+playwright-report
+test-results
+coverage
+
+# Misc
+.DS_Store
+.turbo
+*.tsbuildinfo
+next-env.d.ts
