@@ -82,15 +82,25 @@ export const PromotionList = z.object({
 export type PromotionList = z.infer<typeof PromotionList>;
 
 // The query contract for GET /promotions. z.coerce turns query strings into
-// numbers/dates; page and pageSize clamp to safe ranges so bad pagination is
-// corrected, not crashed. The API validates against this at the boundary.
+// numbers/dates. Pagination is forgiving: bad or out-of-range page/pageSize is
+// clamped to a safe value rather than rejected (.catch + a max clamp), so
+// ?page=abc and ?pageSize=99999 are handled, not fatal. Dates stay strict: an
+// unparseable date is a real client error and returns 400.
+export const PAGE_SIZE_MAX = 100;
+export const PAGE_SIZE_DEFAULT = 20;
+
 export const PromotionQuery = z.object({
   search: z.string().trim().min(1).optional(),
   startDate: z.coerce.date().optional(),
   endDate: z.coerce.date().optional(),
   brand: z.string().trim().min(1).optional(),
-  page: z.coerce.number().int().min(1).default(1),
-  pageSize: z.coerce.number().int().min(1).max(100).default(20),
+  page: z.coerce.number().int().positive().catch(1),
+  pageSize: z.coerce
+    .number()
+    .int()
+    .positive()
+    .catch(PAGE_SIZE_DEFAULT)
+    .transform((n) => Math.min(n, PAGE_SIZE_MAX)),
 });
 export type PromotionQuery = z.infer<typeof PromotionQuery>;
 

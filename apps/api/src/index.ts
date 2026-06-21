@@ -1,14 +1,28 @@
-import express from "express";
+import { createApp } from "./app.js";
+import { connectWithRetry, prisma } from "./db/client.js";
 
-const app = express();
 const port = Number(process.env.API_PORT ?? 4000);
 
-// Health check for the docker-compose healthcheck and a quick liveness probe.
-// The full route layer lands in the API phase.
-app.get("/health", (_req, res) => {
-  res.json({ ok: true, service: "@tally/api" });
-});
+async function main(): Promise<void> {
+  // Connect before listening, with a short retry for the docker startup race.
+  await connectWithRetry();
 
-app.listen(port, () => {
-  console.log(`api listening on http://localhost:${port}`);
+  const app = createApp();
+  const server = app.listen(port, () => {
+    console.log(`api listening on http://localhost:${port}`);
+  });
+
+  // Close cleanly so Postgres connections are released.
+  const shutdown = async () => {
+    server.close();
+    await prisma.$disconnect();
+    process.exit(0);
+  };
+  process.on("SIGINT", shutdown);
+  process.on("SIGTERM", shutdown);
+}
+
+main().catch((err) => {
+  console.error("api failed to start:", err);
+  process.exit(1);
 });
