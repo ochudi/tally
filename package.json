@@ -8,11 +8,13 @@
   "scripts": {
     "build": "pnpm --filter @tally/shared build",
     "dev": "pnpm --filter @tally/shared build && concurrently -n shared,api,web -c blue,green,magenta \"pnpm --filter @tally/shared dev\" \"pnpm --filter @tally/api dev\" \"pnpm --filter @tally/web dev\"",
+    "bootstrap": "pnpm --filter @tally/shared build && pnpm db:deploy && pnpm db:seed",
     "db:migrate": "pnpm --filter @tally/api db:migrate",
+    "db:deploy": "pnpm --filter @tally/api db:deploy",
     "db:seed": "pnpm --filter @tally/api db:seed",
     "scrape": "pnpm --filter @tally/api scrape",
     "test": "pnpm -r run test",
-    "setup": "pnpm --filter @tally/api exec playwright install chromium"
+    "playwright:install": "pnpm --filter @tally/api exec playwright install chromium"
   },
   "devDependencies": {
     "concurrently": "^9.1.0",
