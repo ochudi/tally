@@ -97,16 +97,17 @@ export function BrandHeader({
           <HoursGrid hours={brand?.hours ?? null} />
         </div>
 
-        <div className="flex shrink-0 flex-col gap-3 lg:items-end">
+        <div className="flex min-w-0 max-w-full flex-col gap-3 lg:max-w-[18rem] lg:items-end">
           {brand?.websiteUrl ? (
             <a
               href={brand.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-ink underline decoration-line underline-offset-4 transition hover:decoration-ink"
+              title={brand.websiteUrl}
+              className="group/link inline-flex max-w-full items-center gap-1 text-sm text-ink underline decoration-line underline-offset-4 transition hover:decoration-ink"
             >
-              {prettyUrl(brand.websiteUrl)}
-              <ArrowUpRight className="text-[14px] text-ink-muted" />
+              <span className="truncate">{prettyUrl(brand.websiteUrl)}</span>
+              <ArrowUpRight className="shrink-0 text-[14px] text-ink-muted" />
             </a>
           ) : (
             <span className="text-sm text-ink-subtle">No website listed</span>
